@@ -1,0 +1,61 @@
+html{
+    height: 100%;
+}
+
+body {
+    font-family: 'Barlow Semi Condensed', 'Arial Narrow', Arial, sans-serif;
+    background: url("../img/fond5.jpg")#13e680 no-repeat;
+    background-size: cover;
+    text-align: center;
+    padding: 36px;
+}
+
+/* Page */
+.hero-page {
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 960px;
+    text-align: left;
+    background:rgba(19, 230, 128, 60%) ;
+    border-radius: 50px;
+    color: #1299e6;
+    margin: auto;
+}
+
+/* Image */
+.hero-image {
+    line-height: 0;
+}
+.hero-image img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 50px;
+}
+
+/* Contenu */
+.hero-contenu {
+    padding: 36px;
+    max-width: 480px;
+    box-sizing: border-box;
+
+}
+h1 {
+    color: #3264b7;
+    font-size: 50px;
+    margin-top:0px;
+    
+
+}
+
+h2 {
+    color: #3264b7;
+    font-size: 50px;
+    margin-top:0px;
+}
+
+p{
+    color:#3264b7;
+    font-size: 20px;
+    margin-top:0px;
+    
+}
