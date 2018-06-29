@@ -6,9 +6,11 @@ body {
     font-family: 'Barlow Semi Condensed', 'Arial Narrow', Arial, sans-serif;
     background: url("../img/fond5.jpg")#13e680 no-repeat;
     background-size: cover;
+    background-attachment: fixed;
     text-align: center;
     padding: 36px;
-    text-shadow: 2px 2px 1px white;
+    text-shadow: 2px 2px 1px black;
+    
 }
 
 /* Page */
@@ -17,15 +19,20 @@ body {
     flex-wrap: wrap;
     max-width: 960px;
     text-align: left;
-    background:rgba(19, 230, 128, 60%) ;
+    background:rgba(7, 104, 45, 80%) ;
     border-radius: 50px;
-    color: #1299e6;
+    color: #1dccb5;
     margin: auto;
 }
 
 /* Image */
 .hero-image {
     line-height: 0;
+    background: #b8d7d7;
+    border-top-left-radius: 50px;
+    border-bottom-left-radius: 50px;
+    display: flex;
+    align-items: center;
 }
 .hero-image img {
     max-width: 100%;
@@ -43,24 +50,27 @@ body {
 
 }
 h1 {
-    color: #3264b7;
+    color: #1dccb5;
     font-size: 50px;
     margin-top:0px;
     text-align: center;
+    font-family: Hobo StD;
     
 
 }
 
 h2 {
-    color: #3264b7;
+    color: #1dccb5;
     font-size: 50px;
     margin-top:0px;
     text-align: center;
+    font-family: Hobo StD;
 }
 
 p{
-    color:#3264b7;
+    color:#1dccb5;
     font-size: 20px;
     margin-top:0px;
+    font-family: Hobo StD;
     
 }
